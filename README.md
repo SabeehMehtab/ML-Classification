@@ -2,7 +2,7 @@
 A simple classification example using 4 machine learning algorithms and neutral networks.
 
 ## Dataset Info
-For the task, a dry bean dataset was acquired from the UCI Machine Learning Repository. It contains 13611 samples, with a total of 16 features; 12 dimensions and 4 shape forms, for 7 different dry beans (Seker, Barbunya, Bombay, Cali, Dermosan, Horoz and Sira). More info about the dataset can be found [here] (https://archive-beta.ics.uci.edu/dataset/602/dry+bean+dataset)
+For the task, a dry bean dataset was acquired from the UCI Machine Learning Repository. It contains 13611 samples, with a total of 16 features; 12 dimensions and 4 shape forms, for 7 different dry beans (Seker, Barbunya, Bombay, Cali, Dermosan, Horoz and Sira). More info about the dataset can be found [here](https://archive-beta.ics.uci.edu/dataset/602/dry+bean+dataset).
 
 # Notebook Walkthrough
 ## 1. Data and its visualization
