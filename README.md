@@ -19,4 +19,12 @@ Class labels of the 7 beans were encoded into integers (0-6).
  
  ---
 ### Splitting and Scaling
-The dataframe was split into training and testing datasets, 70:30 respectively. The labels of the test set were decoded back into the original bean labels for easy comparison with model output later onwards. [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) was applied to the input data of the train and test sets for reducing any dominance between features. 
+The dataframe was split into training and testing datasets, 70:30 respectively. The labels of the test set were decoded back into the original bean labels for easy comparison with model output later onwards. Finally, [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) was applied to the input data of the train and test sets for eliminating any dominance between features.
+
+## 3. Models 
+The following 4 models/estimators were trained:
+- Random Forest Classifier (100 tree estimators)
+- k-Nearest Neighbours (k=3)
+- Naive Bayes (default setting)
+- Support Vector Machines (default setting)
+For testing, a classification report was obtained for each of the estimators. Naive Bayes gave the lowest accuracy of 88%, while the rest 3 achieved an accuracy of about 90-91%.
